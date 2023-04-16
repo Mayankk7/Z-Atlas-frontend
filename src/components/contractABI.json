@@ -1,0 +1,96 @@
+[
+	{
+		"inputs": [],
+		"name": "getPathData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "pathData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "sourceLatitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "sourceLongitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "destinationLatitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "destinationLongitude",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_sourceLatitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_sourceLongitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_destinationLatitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_destinationLongitude",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_coordinates",
+				"type": "uint256[]"
+			}
+		],
+		"name": "setPathData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

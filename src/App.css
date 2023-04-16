@@ -1,0 +1,12 @@
+*{
+    overflow-x: hidden;
+}
+
+#btn:hover #i{
+    text-emphasis-color:#606FF0!important;
+}
+
+#i:hover #btn{
+    text-emphasis-color:#606FF0!important;
+}
+
