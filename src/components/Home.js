@@ -37,7 +37,7 @@ const Home = ({setData}) => {
     try {
       const body = {source, destination}
       console.log(body);
-      await axios.post('/api', body)
+      await axios.post('https://weary-purse-eel.cyclic.app/api', body)
         .then(async(re) => {
           console.log(re.data.data);
           await localStorage.setItem('data', JSON.stringify(re.data.data));
